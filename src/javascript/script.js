@@ -7,7 +7,6 @@ $(document).ready(function() {
     const sections = $('section');
     const navItems = $('.nav-item');
 
-    // box shadow no header
     $(window).on('scroll', function () {
         const header = $('header');
         const scrollPosition = $(window).scrollTop() - header.outerHeight();
